@@ -1,9 +1,9 @@
 import AudioPlayer from './AudioPlayer';
 
 const player = new AudioPlayer('.audioPlayer', [
-    { name: 'OvO', url: 'songs/Ovo.mp3' },
-    { name: 'Regrets', url: 'songs/Regrets.mp3' },
-    { name: 'Night Driver', url: 'songs/Night_Driver.mp3' },
-    { name: 'Opened Eyes Woke', url: 'songs/Opened_Eyes_Woke.mp3' },
-    { name: 'The Woogie', url: 'songs/The_Woogie.mp3' },
+    { name: 'Spectra', url: 'songs/gomoney.mp3' },
+    /*{ name: 'Regrets', url: 'songs/Regrets.mp3' },
+    { name: 'Night Driver', url: 'songs/Night_Driver.mp3' },*/
+    { name: 'Go Ahead (Shine)', url: 'songs/shine.mp3' }, 
+    { name: 'Sky High', url: 'songs/Sky_High.mp3' }
 ]);

@@ -4598,18 +4598,23 @@ body {
 .audioPlayer {
   box-shadow: 0 0 32px 4px rgba(0, 0, 0, 0.2);
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.72rem;
   width: 600px;
   display: flex;
+  border-radius: 10px !important;
+  overflow: hidden;
 }
 .audioPlayer canvas {
   flex: 2;
   width: 100%;
   background-color: black;
+  padding: 5px;
 }
 .audioPlayer .playlist {
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, rgba(55, 55, 55, 0.6) 64%), url("/beige-paper.8b38093e.png");
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 0%, rgba(55, 55, 55, 0.6) 64%), url("/blue-bg.d89575ad.png");
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 .audioPlayer .playlist a {
   padding: 0.75rem 2.5rem;
@@ -4624,6 +4629,6 @@ body {
   margin-right: 0.5rem;
 }
 .audioPlayer .playlist a:hover {
-  background-color: #fff;
+  background-color: #a8cbff;
   color: #000;
 }

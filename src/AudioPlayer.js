@@ -34,8 +34,9 @@ export default class AudioPlayer {
       
             for (let i = 0; i < bufferLength; i++) {
               barHeight = dataArray[i] - 75;
-              const r = barHeight + (25 * (i/bufferLength));
-              ctx.fillStyle = `rgb(${r}, 100, 50)`;
+              const r = barHeight + (44 * (i/bufferLength));
+              ctx.fillStyle = `rgb(${r}, 144, 254)`;
+            /*ctx.fillStyle = `rgb(68, 146, 254)`;*/
               ctx.fillRect(bar, canvas.height - barHeight, barWidth, barHeight);
               bar += barWidth + 2;
             }
